@@ -87,7 +87,7 @@ span.iconfont.icon-tupian1 {
 
 /*@media方法*/
 
-@media only screen and (max-device-height:480px) {
+@media only screen and (max-height:480px) {
     .profile-message {
         height: 8.3rem;
     }
@@ -98,7 +98,7 @@ span.iconfont.icon-tupian1 {
     }
 }
 
-@media only screen and  (min-height: 667px){
+@media only screen and (min-height: 667px) {
     .profile-message {
         height: 15rem;
     }
@@ -120,14 +120,14 @@ span.iconfont.icon-tupian1 {
 }
 
 @media only screen and (min-height:1334px) {
-	.bar-nav{
-		height: 3.5rem;
-	}
-	.iconfont.icon-iconfontzuojiantou,
-	.title{
-		font-size: 2rem;
-		line-height: 3.5rem;
-	}
+    .bar-nav {
+        height: 3.5rem;
+    }
+    .iconfont.icon-iconfontzuojiantou,
+    .title {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
     .profile-message {
         height: 23rem;
     }
@@ -138,9 +138,8 @@ span.iconfont.icon-tupian1 {
     }
     .round {
         width: 5rem;
-    height: 5rem;
-    margin-left: 3rem;
-    
+        height: 5rem;
+        margin-left: 3rem;
     }
     span.iconfont.icon-tupian1 {
         margin: 0.7rem 1.3rem auto;
