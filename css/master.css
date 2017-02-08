@@ -1,0 +1,186 @@
+.bar-nav,
+.button {
+    background-color: #dc5562;
+}
+
+.pull-left,
+.title {
+    color: #ffffff;
+}
+
+.profile-message {
+    background-color: #363951;
+    height: 12rem;
+}
+
+.iconfont.icon-tupian {
+    height: 7rem;
+    font-size: 6rem;
+    margin: 1rem 5rem 0rem 5rem;
+    color: #656675;
+}
+
+.list-block {
+    margin: 0;
+}
+
+.round {
+    width: 3.2rem;
+    height: 3.2rem;
+    border: 0.1rem solid #dc5562;
+    border-radius: 50%;
+    margin-left: 1rem;
+    background-color: #4a4f70;
+}
+
+span.iconfont.icon-tupian1 {
+    color: #656675;
+    margin: 0.5rem 0.7rem auto;
+    font-size: 1.5rem;
+}
+
+.col-65 {
+    color: #ffffff;
+    margin-left: 0.5rem;
+}
+
+.item-media div {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+
+.circular1 {
+    background-color: #fa9d4c;
+}
+
+.circular2 {
+    background-color: #b1bc39;
+}
+
+.circular3 {
+    background-color: #398de3;
+}
+
+.circular4 {
+    background-color: #8e5cd4;
+}
+
+.item-media div i {
+    color: #ffffff;
+    margin: 0.3rem 0.5rem auto;
+}
+
+.item-content.item-link:last-child {
+    padding: 0;
+}
+
+.button.button-fill.button-big {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 8rem;
+    line-height: 2.5rem;
+    border-radius: 4rem;
+    margin: 0.8rem 4rem 0.8rem 4rem;
+}
+
+
+/*@media方法*/
+
+@media only screen and (max-device-height:480px) {
+    .profile-message {
+        height: 8.3rem;
+    }
+    .iconfont.icon-tupian {
+        height: 4.5rem;
+        font-size: 4rem;
+        margin: 0rem 6rem 0rem 6rem;
+    }
+}
+
+@media only screen and  (min-height: 667px){
+    .profile-message {
+        height: 15rem;
+    }
+    .iconfont.icon-tupian {
+        height: 9rem;
+        font-size: 8rem;
+        margin: 2rem 5.4rem 0rem 5.35rem;
+    }
+    .round {
+        margin-left: 1.8rem;
+    }
+    .button.button-fill.button-big {
+        font-size: 1rem;
+        height: 3.45rem;
+        width: 11rem;
+        line-height: 3.45rem;
+        margin: 1.2rem 4rem 1.2rem 4rem;
+    }
+}
+
+@media only screen and (min-height:1334px) {
+	.bar-nav{
+		height: 3.5rem;
+	}
+	.iconfont.icon-iconfontzuojiantou,
+	.title{
+		font-size: 2rem;
+		line-height: 3.5rem;
+	}
+    .profile-message {
+        height: 23rem;
+    }
+    .iconfont.icon-tupian {
+        height: 16rem;
+        font-size: 14rem;
+        margin: 1rem 7.6rem 0rem 7.6rem;
+    }
+    .round {
+        width: 5rem;
+    height: 5rem;
+    margin-left: 3rem;
+    
+    }
+    span.iconfont.icon-tupian1 {
+        margin: 0.7rem 1.3rem auto;
+        font-size: 2.5rem;
+    }
+    .col-65 {
+        font-size: 1.5rem;
+    }
+    span.iconfont.icon-llcouponmapmark {
+        font-size: 1.5rem;
+    }
+    .list-block ul {
+        height: 27rem;
+    }
+    .item-media div {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+    }
+    .item-media div i {
+        font-size: 1.4rem;
+        margin: 0.5rem 0.8rem auto;
+    }
+    .item-content.item-link {
+        height: 4.5rem;
+    }
+    .item-title {
+        font-size: 1.5rem;
+    }
+    .list-block .item-link .item-inner {
+        background-size: 1.5rem;
+    }
+    .item-content.item-link:last-child {
+        height: 9.5rem;
+    }
+    .button.button-fill.button-big {
+        font-size: 2rem;
+        height: 4rem;
+        width: 20rem;
+        line-height: 4rem;
+        margin: 2rem 5rem 2rem 5rem;
+    }
+}

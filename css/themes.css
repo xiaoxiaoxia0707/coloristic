@@ -1,0 +1,87 @@
+.bar-nav{
+	background-color: #fa9d4c;
+}
+.title,.icon-menu{
+	color: #ffffff;
+}
+/*这是页面*/
+.media-list{
+	margin: 0;
+}
+.media-list ul li{
+	height: 3rem;
+	background-color: #f4f4f8;
+	border-bottom: 0.2rem solid #ffffff;
+}
+.iconfont.icon-tupian1{
+	color: #c1c2cf;
+	font-size: 1rem;
+	margin-left: 3rem;
+}
+/*侧栏*/
+.panel-reveal{
+	background-color: #363951;
+}
+/*侧栏的头部*/
+.content-header{
+	height: 8rem;
+	padding-top: 2rem;
+}
+.col-33.round{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	border: 0.1rem solid #fa9d4c;
+	float: left;
+	text-align: center;
+	margin: 0;
+	background-color: #4a4f70;
+}
+.iconfont.icon-tupian{
+	font-size: 2.5rem;
+	color: #989dbb;
+}
+.icon-settings,.iconfont.icon-xinfeng{
+	font-size: 1rem;
+	color: #989dbb;
+}
+.icon-settings{
+	margin: 1rem 0 1rem 1.8rem;
+}
+.iconfont.icon-xinfeng{
+	margin: 1rem 2rem 1rem 0.5rem;
+}
+.badge{
+	background-color: #fa9d4c;
+	padding: 0;
+}
+/*侧栏的中间*/
+ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	height: 12rem;
+}
+ul li{
+	height: 2.4rem;
+	line-height: 2.4rem;
+	text-align: center;
+}
+ul .active{
+	color: #fa9d4c;
+	background-color: #303349
+}
+.panel.panel-left.panel-reveal ul li:first-child,
+.panel.panel-left.panel-reveal ul li:last-child{
+	background-color: #303349;
+}
+/*侧栏的底部*/
+.content-footer{
+	height: 8.4rem;
+	padding-top:6rem;
+}
+h6{
+	margin: 0;
+	text-align: center;
+	color: #989dbb;
+}

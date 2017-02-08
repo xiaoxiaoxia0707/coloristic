@@ -1,0 +1,32 @@
+.pull-left,
+.title{
+	color: #ffffff;
+}
+.bar-nav{
+	background-color: #8e5cd4;
+}
+.content{
+	margin: 0;
+}
+.list-block{
+	margin: 0;
+}
+.item-media{
+	background-color: #363951;
+	width: 4rem;
+	height: 4rem;
+}
+div span.iconfont.icon-tupian{
+ 	color: #737586;
+ 	font-size: 1.5rem;		
+	margin: 0.5rem 1.2rem auto;
+}
+.item-subtitle{
+	color: #b7bad0;
+}
+.tab-item.external:first-child{
+	color: #8e5cd4;
+}
+a span.iconfont.icon-tupian{
+	margin:0;
+}
